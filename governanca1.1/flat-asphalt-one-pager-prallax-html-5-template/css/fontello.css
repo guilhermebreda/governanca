@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'myriadpsc';
-  src: url('../font/myriadpsc.eot?16968462');
-  src: url('../font/myriadpsc.eot?16968462#iefix') format('embedded-opentype'),
-       url('../font/myriadpsc.woff?16968462') format('woff'),
-       url('../font/myriadpsc.ttf?16968462') format('truetype'),
-       url('../font/myriadpsc.svg?16968462#myriadpsc') format('svg');
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?16968462');
+  src: url('../font/fontello.eot?16968462#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?16968462') format('woff'),
+       url('../font/fontello.ttf?16968462') format('truetype'),
+       url('../font/fontello.svg?16968462#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*s
+/*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'myriadpsc';
-    src: url('../font/myriadpsc.svg?16968462#myriadpsc') format('svg');
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?16968462#fontello') format('svg');
   }
 }
 */
  
  [class$="elegance-icons-"]:before, [class*="elegance-icons- "]:before {
-  font-family: arial, tahome, "myriadpsc";
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
